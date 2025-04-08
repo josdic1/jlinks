@@ -1,0 +1,517 @@
+{
+    "links": [
+      {
+        "title": "Suno",
+        "url": "https://suno.com/create",
+        "type": "music",
+        "description": "AI music generator using text prompts.",
+        "paid": true,
+        "starred": false,
+        "id": "b893"
+      },
+      {
+        "title": "Udio",
+        "url": "https://www.udio.com/my-creations",
+        "type": "music",
+        "description": "AI music generator using text prompts.",
+        "paid": false,
+        "starred": false,
+        "id": "9841"
+      },
+      {
+        "title": "Excalidraw",
+        "url": "https://excalidraw.com/",
+        "type": "code",
+        "description": "Wireframe hand-drawn style diagramming tool.",
+        "paid": false,
+        "starred": true,
+        "id": "d657"
+      },
+      {
+        "title": "Vite+",
+        "url": "http://localhost:5173",
+        "type": "code",
+        "description": "Default development server address for Vite.",
+        "paid": false,
+        "starred": true,
+        "id": "2e09"
+      },
+      {
+        "title": "Musicfy",
+        "url": "https://create.musicfy.lol/",
+        "type": "music",
+        "description": "AI voice changer and stem-splitter.",
+        "paid": true,
+        "starred": false,
+        "id": "3e1d"
+      },
+      {
+        "title": "Tube Ripper",
+        "url": "https://tuberipper.com/32/",
+        "type": "music",
+        "description": "Download audio from youtube video streams",
+        "paid": false,
+        "starred": false,
+        "id": "8735"
+      },
+      {
+        "title": "Sora",
+        "url": "https://sora.com/library",
+        "type": "ai",
+        "description": "AI video generation using text prompts",
+        "paid": false,
+        "starred": false,
+        "id": "412a"
+      },
+      {
+        "title": "GitHub",
+        "url": "https://github.com/",
+        "type": "code",
+        "description": "Git repository hosting service.",
+        "paid": false,
+        "starred": true,
+        "id": "9667"
+      },
+      {
+        "title": "Railway",
+        "url": "https://railway.com/dashboard",
+        "type": "code",
+        "description": "Persists JSON data on a hosted site.",
+        "paid": false,
+        "starred": false,
+        "id": "046a"
+      },
+      {
+        "title": "Render",
+        "url": "https://dashboard.render.com/",
+        "type": "code",
+        "description": "Backend hosting for applications.",
+        "paid": false,
+        "starred": true,
+        "id": "2049"
+      },
+      {
+        "title": "Supabase",
+        "url": "https://supabase.com/dashboard/projects",
+        "type": "code",
+        "description": "Backend hosting for applications.",
+        "paid": false,
+        "starred": false,
+        "id": "ce7b"
+      },
+      {
+        "title": "Vercel",
+        "url": "https://vercel.com/joshs-projects-933203af",
+        "type": "code",
+        "description": "Frontend hosting for web applications.",
+        "paid": false,
+        "starred": true,
+        "id": "bc41"
+      },
+      {
+        "title": "SVG Creator",
+        "url": "https://editsvgcode.com/",
+        "type": "code",
+        "description": "Creates XML code for SVG images.",
+        "paid": false,
+        "starred": false,
+        "id": "c3b1"
+      },
+      {
+        "title": "Splice",
+        "url": "https://splice.com/home",
+        "type": "music",
+        "description": "Loop, sample, and instrumental database.",
+        "paid": true,
+        "starred": false,
+        "id": "5f6f"
+      },
+      {
+        "title": "Gemini",
+        "url": "https://gemini.google.com/app",
+        "type": "ai",
+        "description": "AI Google",
+        "paid": false,
+        "starred": false,
+        "id": "f828"
+      },
+      {
+        "title": "Grok",
+        "url": "https://grok.com/",
+        "type": "ai",
+        "description": "AI (X)",
+        "paid": false,
+        "starred": false,
+        "id": "6d1d"
+      },
+      {
+        "title": "Chat GPT",
+        "url": "https://chatgpt.com/",
+        "type": "ai",
+        "description": "AI (OpenAI)",
+        "paid": true,
+        "starred": true,
+        "id": "5cbb"
+      },
+      {
+        "title": "Dropbox",
+        "url": "https://www.dropbox.com/home",
+        "type": "storage",
+        "description": "File Storage",
+        "paid": false,
+        "starred": false,
+        "id": "d4e7"
+      },
+      {
+        "title": "Drive Songs",
+        "url": "https://drive.google.com/drive/u/0/folders/1Isw6i4HDnsEx85LEos6W5ZLWMWsKl9vz",
+        "type": "storage",
+        "description": "Song directory in Drive",
+        "paid": false,
+        "starred": true,
+        "id": "cc66"
+      },
+      {
+        "title": "Email - thejscott5",
+        "url": "https://mail.google.com/mail/u/0/?shva=1#inbox",
+        "type": "email",
+        "description": "thejscott5@gmail.com",
+        "paid": false,
+        "starred": true,
+        "id": "c080"
+      },
+      {
+        "title": "Email - joshuadicker",
+        "url": "https://mail.google.com/mail/u/2/#inbox",
+        "type": "email",
+        "description": "joshuadicker@gmail.com",
+        "paid": false,
+        "starred": true,
+        "id": "6b33"
+      },
+      {
+        "title": "Email - darecountymusic",
+        "url": "https://mail.google.com/mail/u/3/",
+        "type": "email",
+        "description": "darecountymusic@gmail.com",
+        "paid": false,
+        "starred": true,
+        "id": "d8f4"
+      },
+      {
+        "title": "localhost:3000",
+        "url": "http://localhost:3000/",
+        "type": "code",
+        "description": "http://localhost:3000/",
+        "paid": false,
+        "starred": false,
+        "id": "5f8b"
+      },
+      {
+        "title": "SE2025",
+        "url": "https://learning.flatironschool.com/courses/8160/pages/congratulations-on-completing-phase-1?module_item_id=715186",
+        "type": "code",
+        "description": "Flatiron School Canvas",
+        "paid": false,
+        "starred": true,
+        "id": "bf73"
+      },
+      {
+        "title": "Difference Checker",
+        "url": "https://www.diffchecker.com/text-compare/",
+        "type": "code",
+        "description": "Highlights differences in 2 code blocks",
+        "paid": false,
+        "starred": false,
+        "id": "25e3"
+      },
+      {
+        "title": "Carbon",
+        "url": "https://carbon.now.sh/",
+        "type": "code",
+        "description": "Code IDE themes",
+        "paid": false,
+        "starred": false,
+        "id": "7fc0"
+      },
+      {
+        "title": "Spotify",
+        "url": "https://open.spotify.com/",
+        "type": "music",
+        "description": "Spotify",
+        "paid": true,
+        "starred": false,
+        "id": "cf9a"
+      },
+      {
+        "title": "Firebase",
+        "url": "https://console.firebase.google.com/u/0/",
+        "type": "code",
+        "description": "Backend platform for apps",
+        "paid": false,
+        "starred": false,
+        "id": "4f7f"
+      },
+      {
+        "title": "Bitbucket",
+        "url": "https://bitbucket.org/240highland/workspace/overview/",
+        "type": "code",
+        "description": "Backup code repo",
+        "paid": false,
+        "starred": false,
+        "id": "cabc"
+      },
+      {
+        "title": "Insta - Dare County",
+        "url": "https://www.instagram.com/darecountymusic/#",
+        "type": "social",
+        "description": "@darecountymusic",
+        "paid": false,
+        "starred": false,
+        "id": "82f8"
+      },
+      {
+        "title": "Insta - joshpending",
+        "url": "https://www.instagram.com/joshpending/",
+        "type": "social",
+        "description": "@joshpending",
+        "paid": false,
+        "starred": false,
+        "id": "8377"
+      },
+      {
+        "title": "SongTrust",
+        "url": "https://app.songtrust.com/dashboard",
+        "type": "music",
+        "description": "Song Publisher",
+        "paid": true,
+        "starred": false,
+        "id": "8fca"
+      },
+      {
+        "title": "Song Splits",
+        "url": "https://app.songsplits.com/home",
+        "type": "music",
+        "description": "Song royalty splits",
+        "paid": true,
+        "starred": false,
+        "id": "9a70"
+      },
+      {
+        "title": "React Dev",
+        "url": "https://react.dev/learn",
+        "type": "code",
+        "description": "React documentation",
+        "paid": false,
+        "starred": false,
+        "id": "aca8"
+      },
+      {
+        "title": "MDN Dev",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "type": "code",
+        "description": "Web and code documentation",
+        "paid": false,
+        "starred": false,
+        "id": "5b89"
+      },
+      {
+        "title": "MongoDB",
+        "url": "https://cloud.mongodb.com/v2/6648d7fcade1be70b26fc79c#/overview",
+        "type": "code",
+        "description": "Backend databse",
+        "paid": false,
+        "starred": false,
+        "id": "dc50"
+      },
+      {
+        "title": "Hashnode Blog",
+        "url": "https://hashnode.com/655b86dcc8bfa45f6b14299b/dashboard/posts",
+        "type": "code",
+        "description": "Blog for code phase finals",
+        "paid": false,
+        "starred": false,
+        "id": "aeb0"
+      },
+      {
+        "title": "Postman",
+        "url": "https://web.postman.co/workspace/My-Workspace~a0da3a8d-dca5-4802-8902-f17ba5b41231/overview",
+        "type": "code",
+        "description": "REST API testing",
+        "paid": false,
+        "starred": false,
+        "id": "3d69"
+      },
+      {
+        "title": "Key Tempo Finder Online",
+        "url": "https://songdata.io/",
+        "type": "music",
+        "description": "Spotify links",
+        "paid": false,
+        "starred": false,
+        "id": "bb04"
+      },
+      {
+        "title": "Key Tempo Finder Upload",
+        "url": "https://tunebat.com/Analyzer",
+        "type": "music",
+        "description": "Upload files",
+        "paid": false,
+        "starred": false,
+        "id": "97dd"
+      },
+      {
+        "title": "Huntr",
+        "url": "https://huntr.co/track/boards/655b8a5a08cddd0429aed6cf/board",
+        "type": "code",
+        "description": "Job application tracking",
+        "paid": false,
+        "starred": false,
+        "id": "c9cf"
+      },
+      {
+        "title": "Chrome Settings",
+        "url": "chrome://settings/",
+        "type": "settings",
+        "description": "⚙",
+        "paid": false,
+        "starred": false,
+        "id": "2762"
+      },
+      {
+        "title": "Rhymezone",
+        "url": "https://www.rhymezone.com/r/rhyme.cgi?Word=wanting&typeofrhyme=nry&org1=syl&org2=l&org3=y",
+        "type": "music",
+        "description": "Slant rhyme maker for lyrics",
+        "paid": false,
+        "starred": false,
+        "id": "b6ac"
+      },
+      {
+        "title": "Lazyjot",
+        "url": "https://lazyjot.com/post/wVYYW2EvymP",
+        "type": "music",
+        "description": "Lyric and rhyme suggestion",
+        "paid": false,
+        "starred": false,
+        "id": "ab75"
+      },
+      {
+        "title": "SendGrid",
+        "url": "https://app.sendgrid.com/?_gl=1*144p1uu*_gcl_au*MTA0NjA2MzY0OS4xNzQwMjYyNzMx*_ga*OTY4NzY0MzUwLjE3NDAyNjI2OTg.*_ga_8W5LR442LD*MTc0MDQyMzI0MC4zLjAuMTc0MDQyMzI0MC4wLjAuMA..",
+        "type": "code",
+        "description": "API Email client",
+        "paid": false,
+        "starred": false,
+        "id": "1c84"
+      },
+      {
+        "title": "Link Tables",
+        "url": "https://docs.google.com/spreadsheets/d/1lkT6jxUE7kl2rJ_2i40ZjoXz8mSy_fVpLZY_L2binZA/edit?gid=1726707994#gid=1726707994",
+        "type": "settings",
+        "description": "🏁 List",
+        "paid": false,
+        "starred": false,
+        "id": "286f"
+      },
+      {
+        "title": "CodeNotes",
+        "url": "https://docs.google.com/spreadsheets/d/127PVQWs7GOrTHJ8e_JD2OOoxSKcWKUj8qonMWlwYrFg/edit?gid=355348665#gid=355348665",
+        "type": "code",
+        "description": "Google Sheets",
+        "paid": false,
+        "starred": false,
+        "id": "d3d7"
+      },
+      {
+        "title": "The Daily",
+        "url": "https://docs.google.com/spreadsheets/d/1Ytt6C_hxLdtiFiIf8zCjf3XrWdF-fduuwF4Xp727gag/edit?gid=0#gid=0",
+        "type": "storage",
+        "description": "Schedule with Gmail script",
+        "paid": false,
+        "starred": false,
+        "id": "3dbd"
+      },
+      {
+        "title": "Prompts AI",
+        "url": "https://drive.google.com/drive/folders/1PO5v-Q3tP5oLS8CU8Dv0PS3-16b4QNcU?usp=sharing",
+        "type": "ai",
+        "description": "Folder with prompts, lyrics, and ideas",
+        "paid": false,
+        "starred": false,
+        "id": "5a23"
+      },
+      {
+        "title": "DixonList",
+        "url": "https://dixonlist.vercel.app/",
+        "type": "storage",
+        "description": "Todo app with Dorrie",
+        "paid": false,
+        "starred": true,
+        "id": "6a36"
+      },
+      {
+        "title": "Soundcloud Downloader",
+        "url": "https://sclouddownloader.net/",
+        "type": "music",
+        "description": "Download SC link to mp3",
+        "paid": false,
+        "starred": false,
+        "id": "de86"
+      },
+      {
+        "title": "BetterPic",
+        "url": "https://www.betterpic.io/app/orders",
+        "type": "social",
+        "description": "AI photo editing",
+        "paid": true,
+        "starred": false,
+        "id": "290d"
+      },
+      {
+        "title": "HTML Viewer GitHub",
+        "url": "https://html-preview.github.io/",
+        "type": "code",
+        "description": "Paste github html url to view repo in browser",
+        "paid": false,
+        "starred": false,
+        "id": "01e1"
+      },
+      {
+        "title": "fiverr",
+        "url": "https://www.fiverr.com/",
+        "type": "social",
+        "description": "Freelander site for art and media",
+        "paid": false,
+        "starred": false,
+        "id": "5f52"
+      },
+      {
+        "title": "Hetzner",
+        "url": "https://console.hetzner.cloud/projects",
+        "type": "code",
+        "description": "Backend server",
+        "paid": true,
+        "starred": false,
+        "id": "3535"
+      },
+      {
+        "title": "AI Prompts",
+        "url": "",
+        "type": "ai",
+        "description": "Fastest method, not best practice; That setting isn’t in Bluetooth settings; it’s under Control Center; Fastest answer possible, details later; Double-check before answering; Just give me the direct steps, no explanation; Step-by-step, and confirm before moving on; Show the code, then explain.\n",
+        "paid": false,
+        "starred": true,
+        "id": "694c"
+      },
+      {
+        "title": "Beautiful's Dream",
+        "url": "https://www.youtube.com/@BeautifulsDream",
+        "type": "music",
+        "description": "Demberry YouTube Channel",
+        "paid": false,
+        "starred": true,
+        "id": "aef6"
+      }
+    ]
+  }
