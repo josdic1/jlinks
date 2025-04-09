@@ -8,6 +8,7 @@ const error = useRouteError()
 return (
 <>
 <header>
+    <NavBar />
 </header>
 <main>
     <h1>Error!</h1>

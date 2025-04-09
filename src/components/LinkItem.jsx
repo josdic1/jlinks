@@ -3,15 +3,16 @@
 function LinkItem({ link, onListButtonClick }) {
 
     const onClick = (e) => {
+        const { id } = e.currentTarget.dataset
         const { name } = e.currentTarget
-            onListButtonClick(name)
+        onListButtonClick(id, name)
     }
 
 return (
 <>
     <tr>
-    <td>{link.starred}</td>
-        <td><button type="button">{link.title}</button></td>
+    <td><button type="button" data-id={link.id} name="star" onClick={onClick}>{link.starred ? "★" : "☆"}</button></td>
+        <td><button type="button"data-id={link.id} name="view" onClick={onClick}>{link.title}</button></td>
         <td>{link.type}</td>
         <td>{link.description}</td>
         <td>{link.paid ? "$" : ""}</td>
