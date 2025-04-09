@@ -5,20 +5,16 @@ import EditModeContext from "../context/EditModeContext"
 import LinkItem from "../components/LinkItem"
 import Filter from "./Filter"
 
+
 function List() {
 
     const { links, setSelectedLink, handleUpdate, handleDelete } = useContext(LinkContext)
     const { setInEditMode } = useContext(EditModeContext)
     const [filterValues, setFilterValues] = useState({
-        textFilter: '',
-        paidFilter: ''
+        textFilter: ''
     })
 
-    const [sortValues, setSortValues] = useState({
-        typeSort: '',
-        paidSort: '',
-        starSort: ''
-    })
+
     const [listToShow, setListToShow] = useState(() => links || [])
 
 
@@ -27,11 +23,15 @@ function List() {
           .filter(link =>
             link.title.toLowerCase().includes(filterValues.textFilter.toLowerCase())
           )
+          
           .sort((a, b) => a.title.localeCompare(b.title))
           .sort((a, b) => Number(b.starred) - Number(a.starred))
       
         setListToShow(displayList)
+          
       }, [links, filterValues])
+
+  
 
     const navigate = useNavigate()
 
@@ -69,14 +69,28 @@ function List() {
        setFilterValues(prev => ({
         ...prev, 
         textFilter: obj.textFilter || '',
-        paidFilter: !!obj.paidFilter
+   
        }))
+      }
+      function onSortClick(e) {
+        const { name } = e.currentTarget
+        setSortOrder(prev => {
+          const direction = prev[name] === 'asc' ? 'desc' : 'asc'
+          return { ...prev, [name]: direction }
+        })
+      }
+
+      const onClear = () => {
+        setFilterValues({
+          textFilter: ''
+        })
       }
   
       
 return (
 <>
-<Filter onFilter={onFilter} filterValues={filterValues}/>
+<Filter onFilter={onFilter} filterValues={filterValues} onClear={onClear}/>
+
     <table>
     <thead>
           <tr>

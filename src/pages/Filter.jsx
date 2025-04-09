@@ -1,6 +1,6 @@
 
 
-function Filter({ onFilter, filterValues }) {
+function Filter({ onFilter, filterValues, onClear}) {
 
 
 const onChange = (e) => {
@@ -16,8 +16,7 @@ return (
 <>
 <label htmlFor="textFilter">Search: </label>
 <input type="text" name="textFilter" placeholder='Type something...' value={filterValues.textFilter} onChange={onChange} />
-<label htmlFor="paidFilter">Paid</label>
-<input type="checkbox" name="paidFilter" checked={filterValues.paidFilter} onChange={onChange} />
+<button type="button" name="clear" onClick={onClear}>Clear</button>
 </>
 )}
 
