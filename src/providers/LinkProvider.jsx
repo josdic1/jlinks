@@ -22,6 +22,7 @@ function LinkProvider({children}) {
         links: [], 
     }
 
+
     const [state, dispatch] = useReducer(reducer, init)
 
     function reducer(state, action) {
@@ -43,7 +44,11 @@ function LinkProvider({children}) {
               link.id === action.payload.id ? action.payload : link
             );
             return { ...state, links: updatedList };
-      
+            case 'UPDATE_STAR':
+                updatedList = state.links.map(link =>
+                  link.id === action.payload.id ? action.payload : link
+                )
+                return { ...state, links: updatedList }
           default:
             return state;
         }
@@ -53,7 +58,7 @@ function LinkProvider({children}) {
 
     async function fetchLinks() {
         try {
-            const r = await fetch(`http://localhost:3000/links`)
+            const r = await fetch(`http://localhost:3001/links`)
             if(!r.ok){
                 throw new Error("💥 Error");
             }
@@ -64,7 +69,7 @@ function LinkProvider({children}) {
 
     async function handleAdd(obj) {
         try {
-            const r = await fetch (`http://localhost:3000/links/`, {
+            const r = await fetch (`http://localhost:3001/links`, {
                 method: 'POST',
                 headers: {
                     'Content-Type':'application/json'
@@ -81,7 +86,7 @@ function LinkProvider({children}) {
 
     async function handleDelete(id) {
         try {
-            const r = await fetch(`http://localhost:3000/links/${id}`, {
+            const r = await fetch(`http://localhost:3001/links/${id}`, {
                 method: 'DELETE',
             })
             if(!r.ok) {
@@ -93,7 +98,7 @@ function LinkProvider({children}) {
 
     async function handleUpdate(obj) {
         try {
-            const r = await fetch (`http://localhost:3000/links/${obj.id}`, {
+            const r = await fetch (`http://localhost:3001/links/${obj.id}`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type':'application/json'
@@ -110,7 +115,7 @@ function LinkProvider({children}) {
 
     async function handleStar(obj) {
         try {
-            const r = await fetch (`http://localhost:3000/links/${obj.id}`, {
+            const r = await fetch (`http://localhost:3001/links/${obj.id}`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type':'application/json'
@@ -121,10 +126,11 @@ function LinkProvider({children}) {
                 throw new Error("💥 Error");
             }
             const data = await r.json()
+            console.log("✅ Links loaded:", data)
             dispatch({ type: 'UPDATE_STAR', payload: data })
         }catch (error) {console.error("❌ Caught error:", error);}
     }
-    
+
 
     return (
     <>
